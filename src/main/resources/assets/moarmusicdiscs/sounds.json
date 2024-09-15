@@ -1,0 +1,18 @@
+{
+  "disc_erika": {
+    "sounds": [
+      {
+        "name": "moarmusicdiscs:disc/disc_erika",
+        "stream": true
+      }
+    ]
+  },
+  "disc_free_bird": {
+    "sounds": [
+      {
+        "name": "moarmusicdiscs:disc/disc_free_bird",
+        "stream": true
+      }
+    ]
+  }
+}

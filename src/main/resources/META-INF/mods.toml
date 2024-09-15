@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+[[mods]]
+modId="moarmusicdiscs"
+version="0.1a"
+displayName="Moar Music Discs"
+authors="atmx"
+description='''
+This mod adds more music discs to Minecraft, 
+expanding the variety of in-game music options.
+Collect new discs and enjoy fresh tunes!
+'''
+[[dependencies.moarmusicdiscs]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.moarmusicdiscs]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19,1.20)"
+ordering="NONE"
+side="BOTH"
