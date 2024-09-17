@@ -19,11 +19,11 @@ public class modItems {
 
     public static final RegistryObject<Item> DISC_ERIKA_ITEM = ITEMS.register("disc_erika_item",
             () -> new RecordItem(8, modSounds.DISC_ERIKA,
-                    new Item.Properties().stacksTo(1), 3600 )
+                    new Item.Properties().stacksTo(1).tab(modCreativeModeTab.DISC_TAB), 3600 )
     );
 
     public static final RegistryObject<Item> DISC_FREE_BIRD_ITEM = ITEMS.register("disc_free_bird_item",
             () -> new RecordItem(8, modSounds.DISC_FREE_BIRD,
-                    new Item.Properties().stacksTo(1), 660005 )
+                    new Item.Properties().stacksTo(1).tab(modCreativeModeTab.DISC_TAB), 660005 )
     );
 }
